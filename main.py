@@ -26,7 +26,7 @@ while action := input(promt):
                 mod_list = list(map(lambda x: f"{mod_pool_dir}/{x}", mod_list))
                 mod_swapper.insert_into_pool(balatro_mod_dir, mod_pool_dir)
                 mod_swapper.insert_from_pool(mod_pool_dir, balatro_mod_dir, mod_list)
-            print(f"Successfully loaded profile \"{profile_name}\"")
+                print(f"Successfully loaded profile \"{profile_name}\"")
         case "2":
             profile_name = input("Profile name: ")
             if not profile_name:
